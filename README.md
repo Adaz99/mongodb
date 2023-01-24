@@ -26,9 +26,11 @@ What did you need to do to provision a vm to:
 ### Vagrant
 ​
 - What is vagrant?
+
 Vagrant is a tool for working with VM's (Building and managing machine) 
 
 - What is a `VagrantFile`?
+
 A Ruby file used to configure Vagrant 
 ​
 #### CLI commands
