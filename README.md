@@ -31,7 +31,7 @@ Vagrant is a tool for working with VM's (Building and managing machine)
 
 - What is a `VagrantFile`?
 
-A Ruby file used to configure Vagrant 
+A Ruby file used to configure Vagrant, the main function of the Vagrantfile is to describe the virtual machines requirements for a project as well as how to configure and provision the machines.
 ​
 #### CLI commands
 ​
