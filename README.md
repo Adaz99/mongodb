@@ -15,11 +15,11 @@ What did you need to do to provision a vm to:
 ## General Environment Questions
 ​
 - What are development environments?
-- 
+ 
 A development environment is a set of tools and configurations that developers use to write, test and debug their code. like a virtual workplace for developers where they can build and test their ideas without breaking anything.
 
 - How do they relate to an application?
-- 
+ 
 Without a proper development environment, it can be difficult or even impossible to write and run the application, ensures that the application behaves as expected and runs correctly across different machines and environments.
 ​
 ### Virtual machines
