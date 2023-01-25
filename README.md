@@ -2,11 +2,14 @@
 # Provisioning project
 ​
 What did you need to do to provision a vm to run mongo db?
+
 ​
 
 What did you need to do to provision a vm to:
 ​
 - Run the node.js application?
+Run the app via scripts
+
 - Use the `nology.training` alias?
 - Use apache server to dirent traffic to a given port?
 - How are you able to pass in the DB connection string?
@@ -34,6 +37,7 @@ A virtual machine is a software program that simulates a computer system. It all
 Allows users to run multiple operating systems on a single physical machine, this is beneficial for larger companies because its more cost-efective since you don't need physical server space.
 
 - How have you used one?
+
 To run our servers using apache
 ​
 ### Vagrant
