@@ -25,10 +25,11 @@ Without a proper development environment, it can be difficult or even impossible
 ### Virtual machines
 ​
 - What is a virtual machine?
-- 
+ 
 A virtual machine is a software program that simulates a computer system. It allows you to run multiple "pretend" computers on a single physical machine.
+
 - What does it allow you to do?
-- 
+ 
 Allows users to run multiple operating systems on a single physical machine, this is beneficial for larger companies because its more cost-efective since you don't need physical server space.
 
 - How have you used one?
