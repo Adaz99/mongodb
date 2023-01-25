@@ -47,5 +47,7 @@ A Ruby file used to configure Vagrant, the main function of the Vagrantfile is t
 #### Provisioning
 ​
 - What is Provisioning in relation to Vagrant?
+
+Provisioners in Vagrant allow you to automatically install software, alter configurations, and more on the machine as part of the vagrant up process
 ​
 ---
