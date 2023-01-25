@@ -3,6 +3,11 @@
 ​
 What did you need to do to provision a vm to run mongo db?
 
+set up vagrant on my local machine
+Configure the vagrant file
+Create shell scripts for the app and mongodb
+Vagrant up on the machine to get everything up and running
+
 ​
 
 What did you need to do to provision a vm to:
@@ -11,8 +16,13 @@ What did you need to do to provision a vm to:
 Run the app via scripts
 
 - Use the `nology.training` alias?
-- Use apache server to dirent traffic to a given port?
+Configure the nology-proxy.conf to include ServerName and ServerAlias
+
+- Use apache server to direct traffic to a given port?
+Had to install Apache server then copy the nology-proxy.conf into apache2/sites-availble
+
 - How are you able to pass in the DB connection string?
+By updating the mongod config file with the appropriate connection settings
 ​
 ---
 ​
@@ -58,7 +68,7 @@ A Ruby file used to configure Vagrant, the main function of the Vagrantfile is t
 | up        | Downloads everything needed to start the VM which are specified in the Vagrantfile| When i wanted to create/start up a VM|
 | provision | Runs any configured provisioners against the running Vagrant managed machine| When i needed to install a new dependency without restarting my whole VM|
 | destroy   | Stops the running VM and destroys all the resources that were created| When the VM is no longer needed, and want a clean state to start from|
-| suspend   | Suspends the VM, rather than fully shutting it down|                      |
+| suspend   | Suspends the VM, rather than fully shutting it down|When i need to work on the VM but didn't need it to run in the background|
 | ssh       | Provides full SSH access to the virtual environments, able to connect to the VM| When i wanted to configure files so that my VM is fully working  |
 ​
 #### Provisioning
